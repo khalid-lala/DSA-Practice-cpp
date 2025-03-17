@@ -11,6 +11,8 @@ class Node {
     }
 };
 
+// Traverse the Linked List
+
 void travers(Node* Head ){
     while (Head != nullptr)            
     {
@@ -25,6 +27,8 @@ void travers(Node* Head ){
     }
     cout << "Null" ;
 }
+
+// Deletion Of Any Node from a Linkerd List 
 
 void deletion_At_Head(Node* &Head){ 
     if (Head == NULL)
